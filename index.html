@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.cdnfonts.com/css/barlow" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="container">
+                <div class="main__info">
+                    <div class="left">
+                        <div class="left__img">
+                            <img src="img/bg.jpg" alt="invest Together">
+                        </div>
+                        <div class="left__logo">
+                            <img src="img/logo.svg" alt="iintoo">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="right__main">
+                            <h3 class="right__main-title">Get iintoo it today</h3>
+                            <p class="right__main-text">There is no charge or obligation upon registration</p>
+                        </div>
+                        <div class="right__social">
+                            <div class="right__main-social-buttons">
+                                <img src="img/facebook.svg" alt="facebook">
+                                <p>Registor with Facebook</p>
+                            </div>
+                            <div class="right__main-social-buttons">
+                                <img src="img/linkedin.svg" alt="linkedin">
+                                <p>Registor with Linkedil</p>
+                            </div>
+                        </div>
+                        <div class="right__or">OR</div>
+                        <form action="#" class="right__form" method="post" >
+                            <div class="right__form-client">
+                                <div class="right__form-client-contacts">
+                                    <p>Email</p>
+                                    <input type="email" required >
+                                </div>
+                                <div class="right__form-client-contacts">
+                                    <p>Phone</p>
+                                    <input type="number" required >
+                                </div>
+                            </div>
+                            <div class="right__form-title">
+                                <h4>What type of investor are you?</h4>
+                                <p>Select the type of investor you are below.</p>
+                            </div>
+                            <div class="right__form-radio">
+                                <div class="right__form-radio-item">
+                                    <input
+                                        name="formRadioType"
+                                        type="radio"
+                                        id="radioItemChoice1"
+                                        value="individual"
+                                        checked
+                                    >
+                                    <label for="radioItemChoice1">Individual</label>
+                                    <p></p>
+                                </div>
+                                <div class="right__form-radio-item">
+                                    <input
+                                        name="formRadioType"
+                                        type="radio"
+                                        id="radioItemChoice2"
+                                        value="business"
+                                    >
+                                    <label for="radioItemChoice2">Business</label>
+                                    <p></p>
+                                </div>
+                                <div class="right__form-radio-item">
+                                    <input
+                                        name="formRadioType"
+                                        type="radio"
+                                        id="radioItemChoice3"
+                                        value="ira"
+                                    >
+                                    <label for="radioItemChoice3">IRA</label>
+                                    <p></p>
+                                </div>
+                                <div class="right__form-radio-item">
+                                    <input
+                                        name="formRadioType"
+                                        type="radio"
+                                        id="radioItemChoice4"
+                                        value="trust"
+                                    >
+                                    <label for="radioItemChoice4">Trust</label>
+                                    <p></p>
+                                </div>
+                                <div class="right__form-radio-info">I am a natural person investing on my own behalf as a sole owner, loin tenat, or tenat in common.</div>
+                            </div>
+                            <div class="right__form-confirm">
+                                <input type="checkbox" required  name="confirm" id="confirmCheckbox">
+                                <label for="confirmCheckbox">
+                                    I agree to the terms and receiving notification from iintoo
+                                </label>
+                                <a href="#!">View full terms</a>
+                            </div>
+                            <button class="right__form-button">Creat Account</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
