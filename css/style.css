@@ -387,6 +387,12 @@ label,
         margin-bottom:15px;
 
     }
+    .right__form-client{
+        flex-direction: column;
+    }
+    .right__form-client-contacts{
+        margin: 10px 0;
+    }
     .right__form-radio-info{
         position: relative;
         margin-top: 0;
